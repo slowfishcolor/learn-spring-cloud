@@ -12,3 +12,6 @@ spring:
     data: classpath:data.sql
 logging:
   level: info
+info:
+  app:
+    name: @project.artifactId@
